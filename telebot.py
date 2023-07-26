@@ -25,6 +25,10 @@ def handle_response(text: str) -> str:
     
     if 'how are you' in processed:
         return 'I am good!'
+    
+    if 'what' and 'up' in processed:
+        return "I am just doing wonderful, I hope you're doing well as well"
+    
 
     return 'I do not understand what you wrote... '
 
